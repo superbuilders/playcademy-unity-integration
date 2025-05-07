@@ -1,0 +1,19 @@
+{
+  "name": "net.playcademy.manifestexport",
+  "version": "0.1.0",
+  "displayName": "Playcademy Manifest Exporter",
+  "description": "Automatically generates cademy.manifest.json for Unity WebGL builds, zips the output, and removes the manifest from the loose files.",
+  "unity": "2020.3",
+  "type": "library",
+  "author": {
+    "name": "Playcademy",
+    "url": "https://playcademy.com"
+  },
+  "keywords": [
+    "unity",
+    "playcademy",
+    "manifest",
+    "webgl"
+  ],
+  "dependencies": {}
+}

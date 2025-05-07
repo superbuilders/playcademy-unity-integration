@@ -1,0 +1,16 @@
+{
+    "name": "net.playcademy.manifestexport.Editor",
+    "rootNamespace": "Cademy.ManifestExport",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
