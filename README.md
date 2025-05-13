@@ -1,13 +1,13 @@
 # Playcademy Manifest Exporter
 
-This Unity package automatically generates a `cademy.manifest.json` file for WebGL builds. It also zips the build output and removes the loose manifest file from the original build directory.
+This Unity package automatically generates a `playcademy.manifest.json` file for WebGL builds. It also zips the build output and removes the loose manifest file from the original build directory.
 
 ## Features
 
-- Auto-generates `cademy.manifest.json`.
+- Auto-generates `playcademy.manifest.json`.
 - Includes Unity version and game name in the manifest.
 - Zips the WebGL build into a `_playcademy_export.zip` file.
-- Cleans up the original `cademy.manifest.json` from the build output folder.
+- Cleans up the original `playcademy.manifest.json` from the build output folder.
 
 ## Installation
 

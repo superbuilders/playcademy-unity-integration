@@ -1,6 +1,6 @@
 {
     "name": "net.playcademy.manifestexport.Editor",
-    "rootNamespace": "Cademy.ManifestExport",
+    "rootNamespace": "Playcademy.ManifestExport",
     "references": [],
     "includePlatforms": [
         "Editor"

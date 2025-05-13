@@ -6,10 +6,10 @@ using UnityEngine;
 using System.IO;
 using System.IO.Compression;
 
-namespace Cademy.ManifestExport
+namespace Playcademy.ManifestExport
 {
     [System.Serializable]
-    public class CademyManifestData
+    public class PlaycademyManifestData
     {
         public string version;
         public string bootMode;
@@ -19,8 +19,8 @@ namespace Cademy.ManifestExport
         public string createdAt;
     }
 
-    /// <summary>Writes cademy.manifest.json into every WebGL build folder.</summary>
-    public class CademyManifestPostprocessor : IPostprocessBuildWithReport // modern API
+    /// <summary>Writes playcademy.manifest.json into every WebGL build folder.</summary>
+    public class PlaycademyManifestPostprocessor : IPostprocessBuildWithReport // modern API
     {
         public int callbackOrder => 0;
 
@@ -30,9 +30,9 @@ namespace Cademy.ManifestExport
 
             string buildDir = report.summary.outputPath;
             string entryHtml = "index.html";
-            string manifestPath = Path.Combine(buildDir, "cademy.manifest.json");
+            string manifestPath = Path.Combine(buildDir, "playcademy.manifest.json");
 
-            var manifest = new CademyManifestData
+            var manifest = new PlaycademyManifestData
             {
                 
                 version   = "1",
