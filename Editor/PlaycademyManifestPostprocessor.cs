@@ -15,7 +15,7 @@ namespace Playcademy.ManifestExport
         public string bootMode;
         public string entryPoint;
         public string[] styles;
-        public string engine;
+        public string platform;
         public string createdAt;
     }
 
@@ -39,7 +39,7 @@ namespace Playcademy.ManifestExport
                 bootMode  = "iframe",
                 entryPoint= entryHtml,
                 styles    = new string[0],
-                engine    = $"unity@{Application.unityVersion}",
+                platform    = $"unity@{Application.unityVersion}",
                 createdAt = System.DateTime.UtcNow.ToString("o")
             };
 
