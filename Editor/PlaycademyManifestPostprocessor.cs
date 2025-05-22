@@ -59,7 +59,7 @@ namespace Playcademy.ManifestExport
                     parentDirPath = ".";
                 }
 
-                string zipFileName = $"{exportDirName}_playcademy_export.zip";
+                string zipFileName = $"{exportDirName}_playcademy.zip";
                 string zipFilePath = Path.Combine(parentDirPath, zipFileName);
 
                 if (File.Exists(zipFilePath))
